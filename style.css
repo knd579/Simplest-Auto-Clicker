@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    background: #121212;
+}
+
+
+/* desktop */
+@media (min-width: 1025px){
+    header ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        font-size: clamp(0.7em, 1em, 5em);
+        transition: 0.2s ease;
+    }
+    header ul li a:hover{
+        text-shadow: 0 0 10px white;
+    }
+    header{
+        z-index: 999;
+        height: 30px;
+        position: sticky;
+        top: 0;
+        padding-block: 1em;
+        background: #0f0919;
+    }
+    header ul{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0.2em;
+    }
+    header ul li{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #home{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    #wis, #htus, #dwlds, #cntct{
+        color: rgb(199, 199, 199);
+        font-size: 4em;
+        font-weight: lighter;
+        margin: 0;
+        margin-left: 2em;
+    }
+    #home img{
+        background: transparent;
+        transform: rotate(-9deg);
+        margin-inline: 5em;
+        width: 40%;
+    }
+    #home span{
+        color: white;
+        font-size: 1.5em;
+        margin: 3em;
+        width: 50%;
+    }
+
+
+    #htu{
+        width: 100%;
+    }
+    #htu h1{
+        color: white;
+        font-size: 4em;
+        font-weight: lighter;
+        margin: 0;
+        margin-left: 2em;
+    }
+    #htu img{
+        width: 65%;
+    }
+    #htu span{
+        font-size: 2.5em;
+        text-wrap: wrap;
+        width: 35%;
+        margin: 0em;
+        color: white;
+    }
+
+    #downloads{
+        display: block;
+    }
+    #downloads ul{
+        margin-left: 3em;
+        color: white;
+        width: 70%;
+    }
+    #downloads ul div li{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 1em;
+        background: #2020208e;
+        list-style: none;
+        width: 50%;
+        height: 2em;
+    }
+    #downloads ul div li span{
+        color: white;
+        font-size: 1em;
+        margin-inline: 2em;
+    }
+    #downloads ul div li a button{
+        margin: 0;
+        background: #29262c7e;
+        border: 2px solid #29262c7e;
+        border-radius: 1em;
+        font-family: "Poppins";
+        font-size: 1.2em;
+        text-align: center;
+        padding-inline: 1em;
+        color: white;
+        width: 100%;
+    }
+    #downloads ul div li a button:hover{
+        background: #3531387e;
+        border: 2px solid #433f467e;
+    }
+    #downloads ul div li a button:active{
+        background: #4642497e;
+        border: 2px solid #6662697e;
+    }
+    #downloads ul div{
+        margin-left: 2.5em;
+    }
+
+    #contact{
+        background: transparent;
+    }
+    #contact div{
+        margin: 0;
+    }
+    #contact div a{
+        margin: 0;
+        color: rgb(156, 156, 156);
+    }
+    #contact div div{
+        margin-left: 9.265em;
+        width: 35%;
+        display: flex;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #contact div div #cntctTit{
+        color: rgb(156, 156, 156);
+    }
+    #contact div div p{
+        color: rgb(71, 71, 71);
+        font-weight: 200;
+        font-size: 1.2em;
+    }
+
+}
