@@ -116,7 +116,7 @@ body{
         font-size: 1em;
         margin-inline: 2em;
     }
-    #downloads ul div li a button{
+    #downloads ul div li a{
         margin: 0;
         background: #29262c7e;
         border: 2px solid #29262c7e;
